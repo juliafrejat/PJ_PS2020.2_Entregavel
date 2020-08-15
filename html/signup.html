@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Use a calculadora de notas para descobrir a nota que precisa para atingir sua média desejada." />
+        <title>Calculadora de Notas</title>
+        <link rel="shortcut icon" href="../imagens/calculadora_7dc2af.png">
+        <link rel="stylesheet" type="text/css" href="../calculadora_de_notas.css">
+    </head>
+    
+    <body>
+        <header>
+            <!--barra de navegação-->
+            <nav>
+                <div id="subnav">
+                    <a href="homepage.html">
+                        <div id="title">
+                            <img src="../imagens/calculadora_brc.png">
+                            <h1>Calculadora de Notas</h1>
+                        </div>
+                    </a>
+                    <a href="#" class="burger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </a>
+                </div>
+
+                <div id="nav">
+                    <a href="api.html">API</a>
+                    <a href="input.html">Calculadora</a>
+                    <a href="login.html" class="button" id="buttonEntrar">Entrar</a>
+                </div>
+            </nav>
+            <script src="../scripts/nav.js"></script>
+        </header>
+
+        <!--corpo do site-->
+        <div class="container" id="container">
+            <div class="divLogInSignUp">
+                <h2>Cadastre-se</h2>
+                <p class="textoLogInSignUp">
+                    Crie uma conta para calcular e deixar salvas as notas que precisa em todas as matérias. Já tem uma conta? 
+                    <a href="login.html" class="linkLogInSignUp">Entre aqui.</a>
+                </p>
+            </div>   
+
+            <form class="formLogInSignUp">
+                <div class="inputLogInSignUp">
+                    <input type="text" name="username" placeholder="Nome de usuário" />
+                    <input type="text" name="email" placeholder="Email" />
+                    <input type="text" name="password" placeholder="Senha" />
+                </div>
+                <div class="divFormButton">
+                    <input type="submit" value="Cadastre-se" class="button" id="buttonSignup"/>
+                </div>
+            </form>
+        </div>
+
+        <!--rodapé-->
+        <div class="footer">
+            <div class="container" id="socialContainer">
+                <a href="#"><img src="../imagens/facebook.ico"></a>
+                <a href="#"><img src="../imagens/twitter.ico"></a>
+                <a href="#"><img src="../imagens/instagram.png"></a>
+                <a href="#"><img src="../imagens/youtube.png"></a>
+            </div>
+
+            <p>
+                Imagem: 
+                <a href="https://stories.freepik.com/" target="_blank">stories/Freepik</a>
+            </p>
+            <hr>
+            <small>© 2020 Julia Frejat | All rights reserved.</small>
+        </div>
+    </body>
+</html>
